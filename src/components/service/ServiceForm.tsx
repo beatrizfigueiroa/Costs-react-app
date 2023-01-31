@@ -21,23 +21,23 @@ export function ServiceForm({ handleSubmit, btnText, projectData }: any) {
     <form onSubmit={submit} className={styles.form}>
       <Input
         type="text"
-        text="Nome do serviço"
+        text="Service name"
         name="name"
-        placeholder="Insira o nome do serviço"
+        placeholder="Enter service name"
         handleOnChange={handleChange}
       />
       <Input
         type="number"
-        text="Custo do serviço"
+        text="Service cost"
         name="cost"
-        placeholder="Insira o valor total"
+        placeholder="Enter total value"
         handleOnChange={handleChange}
       />
       <Input
         type="text"
-        text="Descrição do projeto"
+        text="Project description"
         name="description"
-        placeholder="Descreva o serviço"
+        placeholder="Describe the service"
         handleOnChange={handleChange}
       />
       <SubmitButton text={btnText} />

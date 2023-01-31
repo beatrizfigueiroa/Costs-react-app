@@ -1,3 +1,7 @@
 export function Company() {
-    return <h1>Company</h1>
+  return (
+    <section>
+      <h1>About the company</h1>
+    </section>
+  );
 }
